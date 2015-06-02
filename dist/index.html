@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title></title>
+</head>
+<body>
+	<header>
+		<a href = "#home">Home</a>
+		<a href = "#search">Search</a>
+	</header>
+	<div class = 'page' id = 'search'>
+		<h2>Search for a movie!</h2>
+		<input class = 'inputBox' type = 'text' id = 'title'><span>Title</span><br>
+		<input class = 'inputBox' type = 'text' id = 'type'><span>Type (Series, Episode, or Movie)</span><br>
+		<input class = 'inputBox' type = 'text' id = 'year'><span>Year</span><br>
+		<button class = 'submit' id = "sub">Submit</button>
+		<section id = 'result'></section>
+	</div>
+
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="bower_components/backbone/backbone-min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
